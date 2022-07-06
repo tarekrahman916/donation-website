@@ -235,11 +235,37 @@ input::-webkit-inner-spin-button {
     padding: 12px 10px;
 }
 .subs-btn{
+    width: 200px;
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 400;
     color: #fff;
-    padding: 10px 30px;
+    padding: 10px 0;
+    border: none;
     border-bottom-right-radius: 5px;
     border-top-right-radius: 5px;
     background-color: #FF5959;
+    cursor: pointer;
+}
+
+/* footer style starts here  */
+
+footer{
+    background-color: #0B0D17;
+    margin-top: 50px;
+    padding: 50px 0;
+    text-align: center;
+}
+
+footer > h3{
+    font-family: 'Lobster', cursive;
+    font-weight: 400;
+    letter-spacing: 0.5;
+    color: #FF5959;
+    margin-bottom: 20px;
+}
+
+footer > p{
+    font-size: 14px;
+    line-height: 44px;
+    color: #fff;
 }

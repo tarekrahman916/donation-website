@@ -61,7 +61,7 @@ a{
     color: #fff;
 }
 
-/* donate-range */
+/* donate-today style starts here */
 
 #donate-today{
     width: 60%;
@@ -115,4 +115,60 @@ input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none !important;
   margin: 0 !important;
+}
+
+/* Donate plan style starts */
+
+#donate-plan{
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 70px;
+}
+
+#donate-plan > h2{
+    text-align: center;
+}
+
+#donate-plan > p{
+    width: 600px;
+    text-align: center;
+    color: #707070;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.donate-plan-cards{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    
+}
+
+.plan-card{
+    width: 300px;
+    border-radius:5px ;
+    padding: 60px 25px;
+}
+
+.plan-card img{
+    margin-bottom: 30px;
+}
+.plan-card h4{
+    margin-bottom: 20px;
+}
+
+.plan-card p{
+    color: #707070;
+    text-align: justify;
+}
+
+.card-one{
+    background-color: rgba(79, 157, 166, 0.1);;
+}
+.card-two{
+    background-color: rgba(255, 89, 89, 0.1);;
+}
+
+.card-three{
+    background-color: rgba(255, 244, 214, 1);
 }

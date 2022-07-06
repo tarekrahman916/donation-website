@@ -172,3 +172,34 @@ input::-webkit-inner-spin-button {
 .card-three{
     background-color: rgba(255, 244, 214, 1);
 }
+
+/* donation-blog style starts here */
+
+#donation-blog{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.blog{
+    display: flex;
+    margin-bottom: 50px;
+}
+.blog-items{
+    width: 50%;
+    padding-top: 50px;
+    padding-left: 30px;
+}
+
+.blog-items p{
+    padding-top: 10px;
+    margin-bottom: 40px;
+}
+.blog-image{
+    width: 50%;
+}
+
+.blog-image img{
+    width: 80%;
+    width: 500px;
+    margin-left: 30px;
+}
